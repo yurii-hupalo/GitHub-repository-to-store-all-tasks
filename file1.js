@@ -57,3 +57,25 @@ if (johnBenchPress > edBenchPress) {
 }
 //-------------------------
 //switch case
+const deadlift = "200 kg";
+switch (deadlift) {
+  case "150 kg": {
+      console.log("Pulled it");
+  } 
+  break;
+  case "120 kg": {
+      console.log("Pulled it");
+  } 
+  break;
+  case "130 kg": {
+      console.log("Pulled it");
+  } 
+  break;
+  case "140 kg": {
+      console.log("Pulled it");
+  } 
+  break;
+  default: {
+      console.log("Pulled it");
+  } 
+}
