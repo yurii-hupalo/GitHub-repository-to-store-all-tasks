@@ -26,3 +26,34 @@ console.log(speed >= 10);
 console.log(speed < 100);
 console.log(speed !== 0);
 //ternary operator
+const sky = "Blue";
+const color = sky === "Blue" ? "Blue" : "Yellow";
+console.log(color);
+//logical operators
+console.log( true || true );
+console.log( false && true );
+console.log(1 != 2)
+//---------------------------
+const johnBenchPress = "100 kg"
+const samBenchPress = "80 kg"
+const edBenchPress = "70 kg"
+//if
+if (johnBenchPress === "100 kg") {
+   console.log("John is strong enough");
+}
+//if else
+if (johnBenchPress > samBenchPress) {
+   console.log("John is strong enough");
+} else {
+   console.log("Sam needs to train more");
+}
+//else if
+if (johnBenchPress > edBenchPress) {
+   console.log("Sam needs to train more often");
+} else if (samBenchPress == edBenchPress) {
+   console.log("Ed needs to train more");
+} else {
+   console.log("Ed needs to train every day");
+}
+//-------------------------
+//switch case
